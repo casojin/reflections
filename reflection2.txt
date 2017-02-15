@@ -1,0 +1,4 @@
+git init
+git add <FILENAME>
+git reset <FILENAME>
+git commit -m "<COMMIT MSG>"
