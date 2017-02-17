@@ -1,3 +1,4 @@
 git clone <Repo URL>
 git diff <COMMIT_ID1> <COMMIT_ID2>
+git diff <COMMIT_ID1> <COMMIT_ID2> -stat
 git config --global color.ui auto

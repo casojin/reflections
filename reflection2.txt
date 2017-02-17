@@ -2,3 +2,28 @@ git init
 git add <FILENAME>
 git reset <FILENAME>
 git commit -m "<COMMIT MSG>"
+
+
+git diff
+>> working directory vs staging area
+git diff --staged
+>> staging area vs latest commit
+
+
+git show <COMMIT ID>
+>> Compare <COMMIT ID> with its parent
+
+git branch
+>> check branch currently on
+git branch <NAME>
+>> create new branch
+git checkout <BRANCH NAME>
+>> switch branch
+
+
+git checkout -b <NEW BRANCH NAME>
+>> save unbranched commit to a new branch
+
+
+git reset --hard HEAD^
+>> delete recent commit

@@ -1,0 +1,13 @@
+https://help.github.com/articles/caching-your-github-password-in-git/
+
+remote = remote repository on GitHub
+
+git remote
+>> check remote of current Git repo
+git remote add origin <URL on GitHub>
+>> add a remote for the 1st time
+git remote -v
+>> show remote with detail
+
+git push <REMOTE> <BRANCH>
+>> upload data to remote
